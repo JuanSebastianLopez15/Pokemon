@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package autonoma.fanaticopokemon.main;
 
 import autonoma.fanaticopokemon.models.Bulbasaur;
@@ -14,12 +10,14 @@ import autonoma.fanaticopokemon.models.PokemonPlanta;
 import autonoma.fanaticopokemon.models.Squirtle;
 
 /**
- * @autor Juan Sebastian Lopez Guzman
+ * @autor Juan Sebastian Lopez Guzman y Cristian Salazar Arenas
  * @since 28032025
  * @version 1.0
  */
+
 public class Main {
     public static void main(String[] args) {
+        
         // Crear instancias de Pokémon
         PokemonFuego charmander = new Charmander("Charmander");
         PokemonPlanta bulbasaur = new Bulbasaur("Bulbasaur");
