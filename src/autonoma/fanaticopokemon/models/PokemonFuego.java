@@ -6,14 +6,31 @@ package autonoma.fanaticopokemon.models;
 
 /**
  *
- * @autor Juan Sebastian Lopez
+ * @autor Juan Sebastian Lopez y Cristian Salazar Arenas
  * @since 29032025
  * @version 1.0
  */
 public interface PokemonFuego {
     
-    //Metodos
+    /**
+    * Ejecuta el ataque de Piño Fuego
+    *
+    * @return    El nombre del pokemon y el nombre del ataque
+    * @since 29032025
+    */
     public abstract String atacarPinioFuego();
+    /**
+    * Ejecuta el ataque de Ascuas
+    *
+    * @return    El nombre del pokemon y el nombre del ataque
+    * @since 29032025
+    */
     public abstract String atacarAscuas();
+    /**
+    * Ejecuta el ataque de Lanza Llamas
+    *
+    * @return    El nombre del pokemon y el nombre del ataque
+    * @since 29032025
+    */
     public abstract String atacarLanzaLlamas();
 }
